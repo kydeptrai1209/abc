@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý sinh viên</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quản lý sinh viên</h1>
+        <button id="addNew" onclick="showAddNewRow()">Thêm mới</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>MSV</th>
+                    <th>Tên</th>
+                    <th>Lớp</th>
+                    <th>SDT</th>
+                    <th>Ngày tháng năm sinh</th>
+                    <th>Nơi sinh</th>
+                    <th>Thành tích</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody id="studentTable">
+            </tbody>
+        </table>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 100px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 15%;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #2ecc71;
+}
+
+.input-container {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.input-container input {
+    width: 89%;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-container button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0 10px;
+    border: none;
+    background-color: #2ecc71;
+    color: #fff;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #27ae60;
+}
+/* Các kiểu dáng hiện có của bạn */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #2ecc71;
+    color: white;
+}
+/* Thêm các quy tắc CSS sau vào styles.css */
+
+input[type="text"], input[type="date"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 0;
+}
+
+td {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+button {
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+/* Giữ nguyên độ rộng của bảng */
+table {
+    table-layout: fixed;
+}
